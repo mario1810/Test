@@ -1,14 +1,16 @@
+/* Cambia estilo de toda la hoja */
 *{
     padding: 0;
     margin: 0;
 }
-
+/* Cambia estilo h1 */
 h1{
     background-color: black;
     color:chocolate;
     padding: 20px;
     text-align: center;
 }
+/* Cambia estilo de h2*/
 h2{
     padding: 5px;
     text-align: center;

@@ -3,14 +3,12 @@ console.log("Me parece que todavia me extrañas");
 
 let temp=setInterval(cambiarSaludo,2000);
 let frase=document.getElementsByTagName("h3")[0];
-//frase.innerText="hola";
-//console.log(frase);    
 
-let  key =true;
+/**
+ * Cambia la frase en el titulo h2
+ */ 
 function cambiarSaludo(){
-
-    
-    if(key==true){
+    if(frase.innerHTML=="Ganando como siempre"){
         //document.getElementsByTagName("h3")[0].innerHTML="impongo moda";"
         frase.innerHTML="Impongo moda";
         key=false;
@@ -18,9 +16,6 @@ function cambiarSaludo(){
         frase.innerHTML="Ganando como siempre";
        key=true; 
     }
-
-    //console.log("frase :"+frase);
-    //console.log("Me parece una falta de respeto");
     //clearInterval(temp);
 }
 
