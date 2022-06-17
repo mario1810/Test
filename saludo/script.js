@@ -11,10 +11,8 @@ function cambiarSaludo(){
     if(frase.innerHTML=="Ganando como siempre"){
         //document.getElementsByTagName("h3")[0].innerHTML="impongo moda";"
         frase.innerHTML="Impongo moda";
-        key=false;
     }else{
         frase.innerHTML="Ganando como siempre";
-       key=true; 
     }
     //clearInterval(temp);
 }
