@@ -12,10 +12,10 @@ function cambiarSaludo(){
     
     if(key==true){
         //document.getElementsByTagName("h3")[0].innerHTML="impongo moda";"
-        frase.innerText="Impongo moda";
+        frase.innerHTML="Impongo moda";
         key=false;
     }else{
-        frase.innerText="Ganando como siempre";
+        frase.innerHTML="Ganando como siempre";
        key=true; 
     }
 
