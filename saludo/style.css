@@ -1,4 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 h1{
     background-color: black;
     color:chocolate;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    padding: 5px;
+    text-align: center;
 }
